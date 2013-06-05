@@ -1,6 +1,6 @@
 ##Sample View Model
 
-    return View(new {
+    return View.Parrot("index", new {
       Header = "Parrot",
       Description = "Something something about Parrot",
       Features = new [] {
